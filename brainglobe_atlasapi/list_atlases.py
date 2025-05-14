@@ -106,6 +106,7 @@ def show_atlases(show_local_path: bool = False, table_width: int = 88) -> None:
     """
     Prints a formatted table with the name and version of local (downloaded)
     and online (available) atlases.
+
     Parameters
     ----------
     show_local_path : bool, optional
@@ -117,7 +118,6 @@ def show_atlases(show_local_path: bool = False, table_width: int = 88) -> None:
     Returns
     -------
     None
-
     """
 
     available_atlases = get_all_atlases_lastversions()
